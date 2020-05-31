@@ -1,0 +1,22 @@
+Functions:
+
+	CString ToISODateTime(const TIMESTAMP_STRUCT dt); 
+	CString GetCurDateTime(INT_PTR nFromat = DT_Regular);
+	CString GetStringSmall(const char *pszFormat, ...); 
+	CString ToCString(char* pszData);
+	CString ToCString(char cData);
+	CString ToCString(INT_PTR nData);
+	CString ToCString(long lData);
+	CString ToCString(ULONG lData);
+	CString ToCString(double dData);
+	CString EscapeSpecials(CString str); 
+	std::vector<BYTE> ReadFileBinary(const char* pszFileName);
+
+Classes: 
+
+	CAutoPtrCMapStringToOb
+	CStringStack
+	CAutoPtrCMap
+	CTypedPtrList
+	CXmlParser  
+	CXmlBuilder2 
